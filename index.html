@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="skeleton.css">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Molle:400i" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+	<link rel="stylesheet" href="skeleton.css">
+	<script>
+		$(document).ready(function () {
+		$('#button').click(function () {
+		$('.nav').show();
+		});//end click
+		$('.xwrap2').click(function () {
+		$('.nav').hide();	
+		});//end click
+		$('.xwrap').click(function () {
+		$('.bigimgcor').hide();	
+		});//end click
+		$('#gallery1').click(function () {
+			$('.bigimgcor').show();
+			$('.port_img_big').attr('src','img/gallery1.jpg');
+		});//end click
+		$('#gallery2').click(function () {
+			$('.bigimgcor').show();
+			$('.port_img_big').attr('src','img/gallery2.jpg');
+		});//end click
+		$('#gallery3').click(function () {
+			$('.bigimgcor').show();
+			$('.port_img_big').attr('src','img/gallery3.png');
+		});//end click
+		$('#gallery4').click(function () {
+			$('.bigimgcor').show();
+			$('.port_img_big').attr('src','img/gallery4.jpg');
+		});//end click
+		$('#gallery5').click(function () {
+			$('.bigimgcor').show();
+			$('.port_img_big').attr('src','img/gallery5.jpg');
+		});//end click
+		$('#gallery6').click(function () {
+			$('.bigimgcor').show();
+			$('.port_img_big').attr('src','img/gallery6.jpg');
+		});//end click
+		$('#gallery7').click(function () {
+			$('.bigimgcor').show();
+			$('.port_img_big').attr('src','img/gallery7.jpg');
+		});//end click
+		$('#gallery8').click(function () {
+			$('.bigimgcor').show();
+			$('.port_img_big').attr('src','img/gallery8.jpg');
+		});//end click
+		});//end ready
+	</script>
+</head>
+<body>
+	<div class="menu">
+	<header class="container">
+		<div class="row">
+		<div class="two columns navtitle">			
+		<p class="artica">Artica</p>
+		</div>
+		<div class="two columns" id="button">
+		<div class="bttnwrap">	
+		<span class="bttn"></span>
+		<span class="bttn"></span>
+		<span class="bttn"></span>
+		<span class="bttn"></span>
+		</div>
+		</div>
+		
+	</header>
+	</div>
+		<!--меню -->
+		<div class="nav tac">
+			<p class="artica tcw menutitle">Artica</p>
+			<div class="xwrap2">
+				<span class="x rt"></span>
+				<span class="x rt2"></span>
+			</div>	
+			<nav class="mainnav">
+				<ul>
+					<li><a id="home" href="">Home</a></li>
+					<li><a id="services" href="">Services</a></li>
+					<li><a id="portfolio" href="">Portfolio</a></li>
+					<li><a id="about" href="">About</a></li>
+					<li><a id="blog" href="">Blog</a></li>
+					<li><a id="clients" href="">Clients</a></li>
+					<li><a id="contact" href="">Contact</a></li>
+				</ul>
+			</nav>
+			<nav class="socialnet">
+				<ul>
+					<li><img src="img/fbicon.png" alt=""></li>
+					<li><img src="img/twicon.png" alt=""></li>
+					<li><img src="img/gicon.png" alt=""></li>
+					<li><img src="img/inicon.png" alt=""></li>
+					<li><img src="img/behicon.png" alt=""></li>
+					<li><img src="img/dricon.png" alt=""></li>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="row bluestr beft"></div> <!--синяя полоса -->
+		<div class="info">
+			<div class="container">		
+				<div class="row">
+					
+					<p class="infotitle artica">Artica</p>
+					<img class="line" src="img/line.png" alt="">
+					<p class="textaftt tcw">Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan 
+					tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttlit nisi, pretium ut
+					lacinia in elementumestibulum ac diam sit anet.</p>
+ 					<div class="purchase"><a href="#">Purchase theme</a></div>
+ 			   		</div>
+ 			   	</div>	
+ 			</div>
+ 			<div class="row bluestr"></div> <!--синяя полоса -->
+ 		<!--первая секция -->
+ 		
+	<div class="container">
+		<div class="row tac cor">
+			<p class="sectiontitle tcb">fully layered and customizable template</p>
+			<p class="sectiontitle2 tcb">our services</p>
+			<img class="line" src="img/line2.png" alt="">
+			<p class="textaftt tcb">Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan 
+			tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttlit nisi, pretium ut
+			lacinia in elementumestibulum ac diam sit anet.</p>
+			<div class="three columns">
+				<img class="round" src="img/1service.png" alt="">
+				<p  class="servicetitle tcb">html&css</p>
+				<p class="tcb">Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor</p>
+			</div>
+			<div class="three columns">
+				<img class="round" src="img/2service.png" alt="">
+				<p  class="servicetitle tcb">graphic design</p>
+				<p class="tcb">Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor</p>
+			</div>
+			<div class="three columns">
+				<img class="round" src="img/3service.png" alt="">
+				<p class="servicetitle tcb">on time projects</p>
+				<p class="tcb">Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor</p>
+			</div>
+			<div class="three columns">
+				<img class="round" src="img/4service.png" alt="">
+				<p class="servicetitle tcb">fully support</p>
+				<p class="tcb">Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor</p>
+			</div>
+		</div>
+	</div>	
+		<!--Вторая секция -->
+	<div class="quote">
+	<div class="container">
+		<div class="row tac">
+			<p class="mainquote tcw">Design must reflect the practical and aesthetic in business but above all... 
+			good design must primarily serve people.</p>
+			<p class="author tcw">Thomas J. Watson</p>
+		</div>
+	</div>
+	</div>
+		<!-- цитата -->
+
+	<div class="container">
+		<div class="row tac cor">
+			<p class="sectiontitle tcb">modern and clean design</p>
+			<p class="sectiontitle2 tcb">our portfolio</p>
+			<img src="img/line2.png" alt="" class="line">
+			<p class="textaftt tcb">Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan 
+			tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttlit nisi, pretium ut
+			lacinia in elementumestibulum ac diam sit anet.</p>
+			<nav class="photonav">
+				<ul>
+				<li><p>all</p></li>
+				<li><p>graphic</p></li>
+				<li><p>web</p></li>
+				<li><p>photography</p></li>
+				</ul>
+			</nav>
+
+			<div class="row">
+				<div class="three columns portfolioimg">
+					<img id="gallery1" src="img/gallery1.jpg" alt="">
+						
+				</div>
+
+				<div class="three columns portfolioimg">
+					<img id="gallery2" src="img/gallery2.jpg" alt="">
+				</div>
+
+				<div class="three columns portfolioimg">
+					<img id="gallery3" src="img/gallery3.png" alt="">
+				</div>
+
+				<div class="three columns portfolioimg">
+					<img id="gallery4" src="img/gallery4.jpg" alt="">
+				</div>
+
+			</div> 
+		</div>
+	</div> <!-- 1-я строка галереи-->
+
+			<div class="row quote bigimgcor">
+				<div class="container">
+					<div class="row galleryframe">
+				<div class="six columns ">
+				<img class="port_img_big" src="img/gallery1.jpg" alt="">
+				</div>
+				<div class="six columns">
+					<div class="xwrap">	
+						<span class="x rt"></span>
+						<span class="x rt2"></span>
+					</div>
+					<h5>lorem ipsum image</h5>
+					<p class="gallerytext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam harum minima quo assumenda tempora hic quod expedita libero, beatae voluptatum, aperiam totam vitae sint fugiat, quibusdam. Amet, nam, rem! Impedit ab error, perferendis sint eius numquam, ea iusto accusamus reiciendis nostrum, minus quasi rerum sunt .</p>
+					<p class="gallerydata date">March 2013</p>
+					<p class="gallerydata place">Lorem Studio, NY</p>
+					<p class="gallerydata programm">AI,PS Design</p>
+					<div class="gallerybutton"><a class="buttontext" href="">View in Action</a></div>
+				</div>
+				</div>
+				</div>
+			</div>
+
+			<div class="container">
+			<div class="row">
+				<div class="three columns portfolioimg">
+					<img id="gallery5" src="img/gallery5.jpg" alt="">
+						
+				</div>
+
+				<div class="three columns portfolioimg">
+					<img id="gallery6" src="img/gallery6.jpg" alt="">
+				</div>
+
+				<div class="three columns portfolioimg">
+					<img id="gallery7" src="img/gallery7.jpg" alt="">
+				</div>
+
+				<div class="three columns portfolioimg">
+					<img id="gallery8" src="img/gallery8.jpg" alt="">
+				</div>
+
+			</div> 
+
+			</div> <!-- 2-я строка галереи-->
+
+			<img class="arrow" src="img/arrow.png" alt="">
+			<div class="row tac cor">
+			<p class="sectiontitle tcb">we love our work</p>
+			<p class="textaftt tcb">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci iure, veritatis fugit totam quia eligendi nulla ipsam! Fugiat, nihil error voluptates perspiciatis debitis nesciunt praesentium.!</p>
+			</div>
+
+			<div class="row quote">
+			<div class="container">
+				<div class="row tac cor">
+					<p class="sectiontitle tcw">feel free to ask us anything</p>
+					<p class="sectiontitle2 tcw">contact us</p>
+					<img src="img/line.png" alt="" class="line">
+					<p class="textaftt tcw">Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan 
+					tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttlit nisi, pretium ut
+					lacinia in elementumestibulum ac diam sit anet.</p>
+					<div class="four columns tac">
+						<img src="img/adress.png" alt="">
+						<p class="contacttitle tcw contactm">adress</p>
+						<p class="contacttext tcw">Awesome street 234, NY</p>
+					</div>
+					<div class="four columns tac">
+						<img src="img/mail.png" alt="">
+						<p class="contacttitle tcw contactm">mail</p>
+						<p class="contacttext tcw">articamail@mail.com</p>
+					</div>
+					<div class="four columns tac">
+						<img src="img/phone.png" alt="">
+						<p class="contacttitle tcw contactm">phone</p>
+						<p class="contacttext tcw">(000)123-456-789</p>
+					</div>
+					<div class="row inputs">
+					<div class="four columns" id="contactinput1">
+						<input id="contactinput" type="text" placeholder="Enter name">
+					</div>
+					<div class="four columns">
+						<input id="contactinput" type="text" placeholder="Enter mail">
+					</div>
+					<div class="four columns" id="contactinput3">
+						<input id="contactinput" type="text" placeholder="Enter subject">
+					</div>
+					</div>
+
+					<div class="row tac">
+						<input id="contactmessage" type="text" placeholder="Enter message">
+						<input id="contactsub" type="submit" value="Send Message">
+						<p class="infotitle artica">Artica</p>
+						<p class="textaftt tcw">© Copyright 2013 Artica. All Rights Reserved.</p>
+					</div>
+				</div>
+			</div>
+			</div>
+		
+
+</body>
+</html>
